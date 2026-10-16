@@ -6,7 +6,9 @@
 
 OpenAI-compatible · Pay as you go · No lock-in
 
-[Website](https://cheapaimodel.ai) · [Get an API key](https://console.cheapaimodel.ai/keys) · [Docs](https://github.com/cheapaimodel/docs) · [Examples](https://github.com/cheapaimodel/examples)
+English | [简体中文](README.zh-CN.md)
+
+[Website](https://cheapaimodel.ai?utm_source=github&utm_medium=profile) · [Get an API key](https://console.cheapaimodel.ai/keys?utm_source=github&utm_medium=profile) · [Docs](https://github.com/cheapaimodel/docs) · [Examples](https://github.com/cheapaimodel/examples)
 
 </div>
 
@@ -19,6 +21,8 @@ OpenAI-compatible · Pay as you go · No lock-in
 - **OpenAI-compatible.** Already using the OpenAI SDK? Change the base URL and API key — that's it.
 - **Pay as you go.** No subscriptions, no minimums.
 
+Coming from OpenRouter? Switching takes a few lines: [migration guide](https://github.com/cheapaimodel/docs/blob/main/migrate-from-openrouter.md).
+
 ## Models
 
 | Model | Input / 1M tokens | Output / 1M tokens |
@@ -28,7 +32,7 @@ OpenAI-compatible · Pay as you go · No lock-in
 | `glm-5.3-flash` | $0.1425 | $0.475 |
 | `deepseek-v4-1-flash` | $0.285 | $1.14 |
 
-Full, always up-to-date list: [cheapaimodel.ai/models](https://cheapaimodel.ai/models)
+Full, always up-to-date list: [cheapaimodel.ai/models](https://cheapaimodel.ai/models?utm_source=github&utm_medium=profile)
 
 ## Quickstart
 
@@ -89,7 +93,7 @@ curl https://api.cheapaimodel.ai/v1/chat/completions \
 | --- | --- |
 | [python-sdk](https://github.com/cheapaimodel/python-sdk) | Lightweight Python client, built on the OpenAI SDK |
 | [typescript-sdk](https://github.com/cheapaimodel/typescript-sdk) | Lightweight TypeScript client, built on the OpenAI SDK |
-| [examples](https://github.com/cheapaimodel/examples) | Ready-to-run examples: chat, streaming, tool calling, LangChain |
+| [examples](https://github.com/cheapaimodel/examples) | Ready-to-run examples and setup guides for Cline, Cherry Studio, Codex CLI and more |
 | [docs](https://github.com/cheapaimodel/docs) | API documentation |
 | [awesome-cheapaimodel](https://github.com/cheapaimodel/awesome-cheapaimodel) | Tools and apps that work with CheapAIModel |
 
